@@ -43,6 +43,7 @@ export default {
 .font{
 font-family: 'abeer';
 font-size: 17pt;
+color: #AEB4A9;
 }
 
 .navlogo{

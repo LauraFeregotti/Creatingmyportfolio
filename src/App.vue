@@ -56,7 +56,7 @@ body{
 
 }
 .link{
-  color: #AEB4A9;;
+  color: #AEB4A9;
 }
 
 </style>

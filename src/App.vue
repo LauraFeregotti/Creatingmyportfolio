@@ -2,20 +2,19 @@
   <div id="app">
     <div class="row">
       <div class="col-lg-offset-1 col-lg-1 font navtext">
-        <span>about</span>
-      
+      <router-link to="/about" class="link">about</router-link>
       </div>
       <div class=" col-lg-1 font navtext">
-        <span>work</span>
-        
+        <router-link to="/" class="link">work</router-link>
       </div>
       <div class="col-lg-2 col-lg-offset-1 navlogo">
         <img class="imagenlogo " src="images/titulo.png" alt="titulo">
       </div>
       <div class=" col-lg-1 col-lg-offset-3 font navtext">
-        <span>contact</span>
+     <router-link to="/contact" class="link">contact</router-link>
       </div>
     </div>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -56,4 +55,8 @@ body{
   border: 1rem solid rgb(216, 218, 240, .6);
 
 }
+.link{
+  color: #AEB4A9;;
+}
+
 </style>

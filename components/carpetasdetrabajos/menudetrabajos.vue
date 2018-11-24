@@ -7,12 +7,12 @@
     </div>
     
      <div class="row">
-    <div class="col-lg-offset-1 col-lg-4  remarcoimagen imagenes">
+    <div class=" col-lg-offset-1 col-lg-4  remarcoimagen imagenes">
         
 <img src="components/carpetasdetrabajos/ElPalacioSalon/chanel.jpg" class="img-responsive  imagen3" alt="ElPalacioSalon">
 
     </div>
-    <div class=" col-lg-4 col-lg-offset-2 remarcoimagen imagenes">
+    <div class="  col-lg-offset-2 col-lg-4 remarcoimagen imagenes">
 <img src="components/carpetasdetrabajos/infographic-Argy/info3.png" class="img-responsive  imagen4" alt="infographic-Argy">
     </div>
     </div>

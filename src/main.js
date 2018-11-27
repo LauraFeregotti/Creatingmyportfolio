@@ -22,10 +22,12 @@ const routes =  [
   { path: '/VisualLanguage', component: VisualLanguage},
   { path: '/contact', component: contact},
   { path: '/about', component: about}
+  
 ];
 
 const router = new VueRouter({
-    routes
+    routes,
+    mode: 'history'
 
 }) ;
 

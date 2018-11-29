@@ -1,3 +1,3 @@
 <template>
-   <p>Nexo</p> 
+   <p>Nexo</p>
 </template>

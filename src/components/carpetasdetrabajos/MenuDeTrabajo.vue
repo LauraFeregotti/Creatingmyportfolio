@@ -16,7 +16,7 @@
         <div class="col-lg-6">
           <div class="image-frame">
             <img
-              src="/assets/images/ElPalacioSalon/chanel.jpg"
+              src="@/assets/images/ElPalacioSalon/chanel.jpg"
               class="img-responsive images"
               alt="ElPalacioSalon"
             >
@@ -31,7 +31,7 @@
         <div class="col-lg-6">
           <div class="image-frame ">
             <img
-              src="/assets/images/Photographyexercise/_DSF2402.jpg"
+              src="@/assets/images/Photographyexercise/_DSF2402.jpg"
               class="img-responsive images"
               alt="Photographyexercise"
             >
@@ -50,7 +50,7 @@
         <div class="col-lg-6   images">
           <div class="image-frame">
             <img
-              src="/assets/images/infographic-Argy/info3.jpg"
+              src="@/assets/images/infographic-Argy/info3.jpg"
               class="img-responsive  images"
               alt="infographic-Argy"
             >
@@ -65,7 +65,7 @@
         <div class=" col-lg-6   images">
           <div class="image-frame">
             <img
-              src="/assets/images/Shortfilm/teketeke.png"
+              src="@/assets/images/Shortfilm/teketeke.png"
               class="img-responsive  images"
               alt="Shortfilm"
             >
@@ -84,7 +84,7 @@
         <div class="col-lg-6">
           <div class="image-frame">
             <img
-              src="/assets/images/WoodyAllen/woody.png"
+              src="@/assets/images/WoodyAllen/woody.png"
               class="img-responsive  images"
               alt="WoodyAllen"
             >
@@ -99,7 +99,7 @@
         <div class="col-lg-6 ">
           <div class="image-frame">
             <img
-              src="/assets/images/ParaTi-App/2pantalla.jpg"
+              src="@/assets/images/ParaTi-App/2pantalla.jpg"
               class="img-responsive  images"
               alt="ParaTi-App"
             >
@@ -118,7 +118,7 @@
         <div class="col-lg-6">
           <div class="image-frame">
             <img
-              src="/assets/images/ParaTi-Web/1.jpg"
+              src="@/assets/images/ParaTi-Web/1.jpg"
               class="img-responsive  images"
               alt="ParaTi-Web"
             >
@@ -133,7 +133,7 @@
         <div class="col-lg-6">
           <div class="image-frame">
             <img
-              src="/assets/images/PUKE/puke.jpg"
+              src="@/assets/images/PUKE/puke.jpg"
               class="img-responsive  images"
               alt="PUKE"
             >
@@ -152,7 +152,7 @@
         <div class=" col-lg-6">
           <div class="image-frame">
             <img
-              src="/assets/images/CrockeryAttack/Kitchen-background-1.jpg"
+              src="@/assets/images/CrockeryAttack/Kitchen-background-1.jpg"
               class="img-responsive  images"
               alt="CrockeryAttack"
             >
@@ -167,7 +167,7 @@
         <div class="col-lg-6 ">
           <div class=" image-frame">
             <img
-              src="/assets/images/Videogame-Processing/menu7.jpg"
+              src="@/assets/images/Videogame-Processing/menu7.jpg"
               class="img-responsive  images"
               alt="Videogame-Processing"
             >
@@ -186,7 +186,7 @@
         <div class=" col-lg-6">
           <div class="image-frame">
             <img
-              src="/assets/images/NEXO/creartransmision.jpg"
+              src="@/assets/images/NEXO/creartransmision.jpg"
               class="img-responsive  images"
               alt="NEXO"
             >
@@ -201,7 +201,7 @@
         <div class="col-lg-6">
           <div class="image-frame">
             <img
-              src="/assets/images/VisualLanguage/Ulay_Abramovic-AAAAAA.jpg"
+              src="@/assets/images/VisualLanguage/Ulay_Abramovic-AAAAAA.jpg"
               class="img-responsive  images"
               alt="VisualLanguage"
             >
@@ -220,7 +220,7 @@
         <div class=" col-lg-6">
           <div class="image-frame">
             <img
-              src="/assets/images/ArtPieces/Tiger_3.jpg"
+              src="@/assets/images/ArtPieces/Tiger_3.jpg"
               class="img-responsive  images"
               alt="ArtPieces"
             >
@@ -242,11 +242,10 @@
   </div>
 </template>
 
-
 <style scoped>
 @font-face {
   font-family: "abeer";
-  src: url("/assets/fonts/AbeerDemo.ttf");
+  src: url('../../assets/fonts/AbeerDemo.ttf');
 }
 
 h3 {
@@ -279,14 +278,12 @@ h3 {
 <script>
 export default {
 
-  data() {
-
+  data () {
     return {
 
       images: [{}]
 
     }
-
   }
 
 }

@@ -20,7 +20,7 @@
             class="link titulodescripcion"
           ><img
               class="image-logo  center-block "
-              src="/assets/images/titulo2.png"
+              src="@/assets/images/titulo2.png"
               alt="titulo"
             ></router-link>
         </div>
@@ -56,7 +56,7 @@
 <script>
 export default {
   name: 'app',
-  data() {
+  data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
@@ -67,7 +67,7 @@ export default {
 <style scoped>
 @font-face {
   font-family: "abeer";
-  src: url("/assets/fonts/AbeerDemo.ttf");
+  src: url('/assets/fonts/AbeerDemo.ttf');
 }
 .image-logo {
   width: 338pt;
@@ -84,8 +84,8 @@ export default {
 .navtext {
   margin-top: 111px;
 }
-body {
-  border: 1rem solid rgb(195, 225, 234, 0.6);
+.body {
+  border: 1rem solid rgba(195, 225, 234, 0.6);
   background: #f9f6e1;
 }
 .link {
@@ -94,7 +94,7 @@ body {
 .copyright {
   margin-top: 66px;
   padding: 44px;
-  background-color: rgb(195, 225, 234, 0.6);
+  background-color: rgba(195, 225, 234, 0.6);
   text-align: center;
   font-family: "abeer";
   font-size: 17pt;

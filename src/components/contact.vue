@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-offset-2 col-lg-1">
           <img
-            src="/assets/images/icons/email.png"
+            src="@/assets/images/icons/email.png"
             alt="email"
             class="icon center-block"
           >
@@ -14,7 +14,7 @@
         </div>
         <div class="col-lg-1">
           <img
-            src="/assets/images/icons/phone.png"
+            src="@/assets/images/icons/phone.png"
             alt="phone"
             class="icon center-block"
           >
@@ -26,7 +26,7 @@
       <div class="row">
         <div class="col-lg-offset-2 col-lg-1">
           <img
-            src="/assets/images/icons/ln.png"
+            src="@/assets/images/icons/ln.png"
             alt="linkedin"
             class="icon center-block"
           >
@@ -36,7 +36,7 @@
         </div>
         <div class="col-lg-1">
           <img
-            src="/assets/images/icons/location.png"
+            src="@/assets/images/icons/location.png"
             alt="location"
             class="icon center-block"
           >
@@ -52,7 +52,7 @@
 <style scoped>
 @font-face {
   font-family: "abeer";
-  src: url("/assets/fonts/AbeerDemo.ttf");
+  src: url('../assets/fonts/AbeerDemo.ttf');
 }
 .sentence-contact {
   color: #aeb4a9;
@@ -69,4 +69,3 @@
   text-align: right;
 }
 </style>
-  

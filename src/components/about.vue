@@ -14,7 +14,7 @@
 <style scoped>
 @font-face {
   font-family: "abeer";
-  src: url("/assets/fonts/AbeerDemo.ttf");
+  src: url('../assets/fonts/AbeerDemo.ttf');
 }
 .about-me {
   text-align: center;

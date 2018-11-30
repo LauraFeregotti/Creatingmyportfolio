@@ -244,11 +244,6 @@
 </template>
 
 <style scoped>
-@font-face {
-  font-family: "abeer";
-  src: url("../../assets/fonts/AbeerDemo.ttf");
-}
-
 h3 {
   margin-top: 45px;
   font-family: "abeer";

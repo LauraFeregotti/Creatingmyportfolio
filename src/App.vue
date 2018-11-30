@@ -64,7 +64,7 @@ export default {
 </script>
 <style>
 body {
-  border: 1rem solid rgba(195, 225, 234);
+  border: 1rem solid rgb(195, 225, 234);
   background: #f9f6e1;
 }
 a:hover {
@@ -74,14 +74,14 @@ a:hover {
 a:link {
     text-decoration: none;
 }
-
+@font-face {
+  font-family: "abeer";
+  src: url("assets/fonts/AbeerDemo.ttf");
+}
 </style>
 
 <style scoped>
-@font-face {
-  font-family: "abeer";
-  src: url("/assets/fonts/AbeerDemo.ttf");
-}
+
 .image-logo {
   width: 338pt;
   height: 277.541pt;

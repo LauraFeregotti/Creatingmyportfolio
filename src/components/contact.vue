@@ -50,10 +50,7 @@
 </template>
 
 <style scoped>
-@font-face {
-  font-family: "abeer";
-  src: url('../assets/fonts/AbeerDemo.ttf');
-}
+
 .sentence-contact {
   color: #aeb4a9;
   margin-top: 64px;

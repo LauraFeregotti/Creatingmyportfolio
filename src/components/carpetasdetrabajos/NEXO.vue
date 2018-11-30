@@ -192,6 +192,7 @@
 
 </template>
 <style>
+
 .image-frame {
   background: #f7b69f;
   padding-right: 10px;

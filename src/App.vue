@@ -70,6 +70,11 @@ body {
 a:hover {
   text-decoration: none;
 }
+
+a:link {
+    text-decoration: none;
+}
+
 </style>
 
 <style scoped>

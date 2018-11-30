@@ -24,7 +24,7 @@
               alt="titulo"
             ></router-link>
         </div>
-        <div class=" col-lg-1 col-lg-offset-1 font navtext">
+        <div class=" col-lg-offset-2 col-lg-1  font navtext">
           <router-link
             to="/contact"
             class="link"
@@ -45,8 +45,7 @@
     <div class="footer-copyright copyright container-fluid">
       <div class="row">
         <div class="col-lg-offset-4 col-lg-4 col-lg-offset-4 ">
-          <p>
-            Laura Feregotti</p>
+          <span>© 2018 - Laura Feregotti</span>
         </div>
       </div>
     </div>
@@ -63,11 +62,20 @@ export default {
   }
 }
 </script>
+<style>
+body {
+  border: 1rem solid rgba(195, 225, 234);
+  background: #f9f6e1;
+}
+a:hover {
+  text-decoration: none;
+}
+</style>
 
 <style scoped>
 @font-face {
   font-family: "abeer";
-  src: url('/assets/fonts/AbeerDemo.ttf');
+  src: url("/assets/fonts/AbeerDemo.ttf");
 }
 .image-logo {
   width: 338pt;
@@ -84,19 +92,17 @@ export default {
 .navtext {
   margin-top: 111px;
 }
-.body {
-  border: 1rem solid rgba(195, 225, 234, 0.6);
-  background: #f9f6e1;
-}
+
 .link {
   color: #aeb4a9;
 }
 .copyright {
   margin-top: 66px;
   padding: 44px;
-  background-color: rgba(195, 225, 234, 0.6);
+  background-color: rgba(195, 225, 234);
   text-align: center;
   font-family: "abeer";
+  color: #f9f6e1;
   font-size: 17pt;
 }
 .router-link:active {

@@ -3,7 +3,7 @@
 
     <div class="row">
 
-      <div class=" col-lg-2">
+      <div class=" col-lg-2 ">
 
         <h3>My Work</h3>
 

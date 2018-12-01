@@ -6,6 +6,11 @@
           <h3>Crockery Attack - video game art</h3>
         </div>
       </div>
+      <div class="row">
+        <div class="col-lg-offset-3 col-lg-6 col-lg-offset-3 explanation">
+          <p>This is the art of a platform video game I had to create. It's based on a fictional universe made out of crockery.</p>
+        </div>
+      </div>
 
       <div class="row">
 
@@ -135,6 +140,7 @@
   padding-bottom: 10px;
   margin-top: 15px;
   text-align: center;
+  box-shadow: 0px 0px 33px -4px rgba(0,0,0,0.34);
 }
 .images {
   margin-bottom: 12px;
@@ -147,5 +153,12 @@ h3 {
   font-family: "abeer";
   color: #aeb4a9;
   text-align: center;
+}
+.explanation{
+  margin-top: 22px;
+   font-family: "abeer";
+   color: #aeb4a9;
+  text-align: center;
+    font-size: 19px;
 }
 </style>

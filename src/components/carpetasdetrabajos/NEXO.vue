@@ -2,8 +2,14 @@
   <div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-offset-2 col-lg-4">
-          <h3>Nexo - Web-application for esoteric writers</h3>
+        <div class="col-lg-offset-2 col-lg-5">
+          <h3>Nexo - Web application for esoteric writers</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-offset-3 col-lg-6 col-lg-offset-3 explanation">
+          <p>This project was intended for us to learn the whole Design Thinking process. Besides doing all the stages, teachers made us deepen in the first steps (Empathize, Define, Ideate).
+My group was given esoteric users. Specifically, esoteric writers that wanted to connect with their readers. As a team, we had to design a web application for them.  </p>
         </div>
       </div>
 
@@ -201,6 +207,7 @@
   padding-bottom: 12px;
   margin-top: 15px;
   text-align: center;
+  box-shadow: 0px 0px 33px -4px rgba(0,0,0,0.34);
 }
 .images {
   margin-bottom: 12px;
@@ -213,5 +220,12 @@ h3 {
   font-family: "abeer";
   color: #aeb4a9;
   text-align: center;
+}
+.explanation{
+  margin-top: 22px;
+   font-family: "abeer";
+   color: #aeb4a9;
+  text-align: center;
+    font-size: 19px;
 }
 </style>

@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <link rel="shortcut icon" type="image/png" href="@/assets/images/titulo2-favicon.png">
     <div class="container">
       <div class="row">
         <div class=" col-lg-1 col-md-2 font navtext hidden-md hidden-sm hidden-xs">

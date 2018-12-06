@@ -13,6 +13,16 @@
       </div>
 
       <div class="row">
+        <div class=" col-lg-offset-2 col-lg-8">
+          <div class="image-frame">
+            <img
+              src="@/assets/images/ArtPieces/piky.jpg"
+              class="img-responsive images border"
+              alt="Shih-Tzu-dog-drawing"
+            >
+            <p class="title-description">My Shih Tzu dog drawing</p>
+          </div>
+        </div>
 
         <div class=" col-lg-offset-2 col-lg-8">
           <div class="image-frame">

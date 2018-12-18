@@ -8,6 +8,14 @@ import Photographyexercise from '@/components/carpetasdetrabajos/Photographyexer
 import VisualLanguage from '@/components/carpetasdetrabajos/VisualLanguage.vue'
 import contact from '@/components/contact.vue'
 import about from '@/components/about.vue'
+import ElPalacioSalon from '@/components/carpetasdetrabajos/ElPalacioSalon.vue'
+import ArgyrosaurusInfographic from '@/components/carpetasdetrabajos/ArgyrosaurusInfographic.vue'
+import TekeTeke from '@/components/carpetasdetrabajos/TekeTeke.vue'
+import WoodyAllen from '@/components/carpetasdetrabajos/WoodyAllen.vue'
+import ParaTiApp from '@/components/carpetasdetrabajos/ParaTiApp.vue'
+import ParaTiWebSite from '@/components/carpetasdetrabajos/ParaTiWebSite.vue'
+import PUKE from '@/components/carpetasdetrabajos/PUKE.vue'
+import ProcessingVideoGame from '@/components/carpetasdetrabajos/ProcessingVideoGame.vue'
 
 Vue.use(Router)
 
@@ -43,6 +51,39 @@ export default new Router({
   {
     path: '/about',
     component: about
+  },
+  {
+    path: '/ElPalacioSalon',
+    component: ElPalacioSalon
+  },
+  {
+    path: '/ArgyrosaurusInfographic',
+    component: ArgyrosaurusInfographic
+  },
+  {
+    path: '/TekeTeke',
+    component: TekeTeke
+  },
+  {
+    path: '/WoodyAllen',
+    component: WoodyAllen
+  },
+  {
+    path: '/ParaTiApp',
+    component: ParaTiApp
+  },
+  {
+    path: '/ParaTiWebSite',
+    component: ParaTiWebSite
+  },
+  {
+    path: '/PUKE',
+    component: PUKE
+  },
+  {
+    path: '/ProcessingVideoGame',
+    component: ProcessingVideoGame
   }
+
   ]
 })

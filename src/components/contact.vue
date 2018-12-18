@@ -9,7 +9,7 @@
             class="icon center-block"
           >
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3   sentence-contact">
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3  sentence-contact">
           <p>laura.feregotti@gmail.com</p>
         </div>
         <div class="col-lg-offset-1 col-lg-1 col-md-offset-4 col-md-1  col-sm-offset-4 col-sm-1 col-xs-offset-2 col-xs-3">

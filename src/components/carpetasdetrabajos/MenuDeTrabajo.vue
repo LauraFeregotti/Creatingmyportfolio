@@ -16,8 +16,7 @@
       <div class="col-lg-6">
         <div class="image-frame">
 
-          <a
-            href="https://lauraferegotti.github.io/elpalaciosalon/"
+          <router-link to="/ElPalacioSalon"
             class="title-description"
           > <img
               src="@/assets/images/ElPalacioSalon/chanel.jpg"
@@ -25,11 +24,9 @@
               alt="ElPalacioSalon"
             >
             El Palacio Salón - Website redesign
-          </a>
-
+          </router-link>
         </div>
       </div>
-
       <div class="col-lg-6">
         <div class="image-frame ">
           <router-link
@@ -51,8 +48,7 @@
 
       <div class="col-lg-6   images">
         <div class="image-frame">
-          <a
-            href="https://lauraferegotti.github.io/infography/"
+          <router-link to="/ArgyrosaurusInfographic"
             class="title-description"
           > <img
               src="@/assets/images/infographic-Argy/info3.jpg"
@@ -60,14 +56,13 @@
               alt="infographic-Argy"
             >
 
-            Argyrosaurus Superbus infographic</a>
+            Argyrosaurus Superbus infographic </router-link>
         </div>
       </div>
 
       <div class=" col-lg-6   images">
         <div class="image-frame">
-          <a
-            href="https://www.youtube.com/watch?v=5xReLzeFhV4"
+          <router-link to="/TekeTeke"
             class="title-description"
           > <img
               src="@/assets/images/Shortfilm/teketeke.png"
@@ -75,7 +70,7 @@
               alt="Shortfilm"
             >
 
-            Teke Teke - Short Film</a>
+            Teke Teke - Short Film</router-link>
         </div>
       </div>
 
@@ -85,8 +80,7 @@
 
       <div class="col-lg-6">
         <div class="image-frame">
-          <a
-            href="https://lauraferegotti.github.io/WoodyAllen/index.html"
+          <router-link to="/WoodyAllen"
             class="title-description"
           > <img
               src="@/assets/images/WoodyAllen/woody.png"
@@ -94,13 +88,13 @@
               alt="WoodyAllen"
             >
 
-            Woody Allen - Infography</a>
+            Woody Allen - Infography</router-link>
         </div>
       </div>
 
       <div class="col-lg-6 ">
         <div class="image-frame">
-          <a
+          <router-link to="/ParaTiApp"
             href="https://marvelapp.com/934ej5e/screen/29922205"
             class="title-description"
           > <img
@@ -109,7 +103,7 @@
               alt="ParaTi-App"
             >
 
-            Para Ti - Application</a>
+            Para Ti - Application</router-link>
         </div>
       </div>
 
@@ -119,7 +113,7 @@
 
       <div class="col-lg-6">
         <div class="image-frame">
-          <a
+          <router-link to="/ParaTiWebSite"
             href="https://lauraferegotti.github.io/parati/"
             class="title-description"
           > <img
@@ -128,13 +122,13 @@
               alt="ParaTi-Web"
             >
 
-            Para Ti - Website</a>
+            Para Ti - Website</router-link>
         </div>
       </div>
 
       <div class="col-lg-6">
         <div class="image-frame">
-          <a
+          <router-link to="/PUKE"
             href="https://www.facebook.com/puke.game/"
             class="title-description"
           > <img
@@ -143,7 +137,7 @@
               alt="PUKE"
             >
 
-            PUKE - Video Game</a>
+            PUKE - Video Game</router-link>
         </div>
       </div>
 
@@ -168,7 +162,7 @@
 
       <div class="col-lg-6 ">
         <div class=" image-frame">
-          <a
+          <router-link to="/ProcessingVideoGame"
             href="https://github.com/LauraFeregotti/Catch-the-Apples"
             class="title-description"
           > <img
@@ -176,7 +170,7 @@
               class="img-responsive  images border"
               alt="Videogame-Processing"
             >
-            Processing - Video Game</a>
+            Processing - Video Game</router-link>
 
         </div>
       </div>
@@ -273,6 +267,9 @@ h3 {
 
 .border {
   border: 0.5rem solid rgb(249, 246, 225);
+}
+.repository{
+  color:   #aeb4a9;
 }
 </style>
 <script>

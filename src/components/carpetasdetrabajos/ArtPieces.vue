@@ -19,7 +19,7 @@
               class="img-responsive images border"
               alt="Emma-Watson-drawing"
             >
-            <p class="title-description">Emma Watson drawing</p>
+            <p class="title-description">Emma Watson digital drawing</p>
           </div>
         </div>
       </div>
@@ -32,7 +32,7 @@
               class="img-responsive images border"
               alt="Shih-Tzu-dog-drawing"
             >
-            <p class="title-description">My Shih Tzu dog drawing</p>
+            <p class="title-description">My Shih Tzu dog digital drawing</p>
           </div>
         </div>
 

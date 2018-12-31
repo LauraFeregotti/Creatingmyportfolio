@@ -11,6 +11,18 @@
           <p>This are a few of my art pieces I have done as a hobby. </p>
         </div>
       </div>
+<div class="row">
+        <div class=" col-lg-offset-2 col-lg-8">
+          <div class="image-frame">
+            <img
+              src="@/assets/images/ArtPieces/emma.png"
+              class="img-responsive images border"
+              alt="Emma-Watson-drawing"
+            >
+            <p class="title-description">Emma Watson drawing</p>
+          </div>
+        </div>
+      </div>
 
       <div class="row">
         <div class=" col-lg-offset-2 col-lg-8">

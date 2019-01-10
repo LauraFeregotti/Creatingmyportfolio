@@ -13,7 +13,42 @@
           <p><a class="link" href="https://lauraferegotti.github.io/infography/">Here is the link to the infographic </a> </p>
         </div>
       </div>
-
+      <div class="row">
+        <div class=" col-lg-offset-2 col-lg-8">
+          <div class="image-frame">
+            <img
+              src="@/assets/images/infographic-Argy/Museum.gif"
+              class="img-responsive images border"
+              alt="museum.gif"
+            >
+            <p class="title-description"></p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class=" col-lg-offset-2 col-lg-8">
+          <div class="image-frame">
+            <img
+              src="@/assets/images/infographic-Argy/Museum-Presentation-1.jpg"
+              class="img-responsive images border"
+              alt="museum1"
+            >
+            <p class="title-description"></p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class=" col-lg-offset-2 col-lg-8">
+          <div class="image-frame">
+            <img
+              src="@/assets/images/infographic-Argy/Museum-Presentation-3.jpg"
+              class="img-responsive images border"
+              alt="museum3"
+            >
+            <p class="title-description"></p>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
